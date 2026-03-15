@@ -1,0 +1,5 @@
+ultralytics
+opencv-python-headless
+yt-dlp
+streamlit
+pandas
