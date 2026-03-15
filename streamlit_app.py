@@ -1,3 +1,11 @@
+import os
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
+import streamlit as st
+import cv2
+import yt_dlp
+from ultralytics import YOLO
 import streamlit as st
 import cv2
 import yt_dlp
